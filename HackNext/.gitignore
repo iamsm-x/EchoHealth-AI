@@ -1,0 +1,19 @@
+.DS_Store
+node_modules
+dist
+.env
+__pycache__
+# *.pkl - Removed to allow model uploads for demo
+.run/*.log
+.run/
+venv
+.vscode
+.idea
+*.pyc
+storage/uploads/*
+!storage/uploads/.gitkeep
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+.gemini

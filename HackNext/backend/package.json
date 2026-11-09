@@ -1,0 +1,20 @@
+{
+  "name": "voice-diary-backend",
+  "version": "1.0.0",
+  "description": "Hackathon backend for Voice Biomarker Disease Tracking",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/app.js && node --check src/controllers/recordingController.js && node --check src/services/recordingService.js && node --check src/services/mlService.js && node --check src/lib/dbAdapter.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.1.0"
+  }
+}

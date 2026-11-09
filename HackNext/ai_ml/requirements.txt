@@ -1,0 +1,7 @@
+flask
+flask-cors
+imageio-ffmpeg
+joblib
+numpy
+scipy
+scikit-learn
